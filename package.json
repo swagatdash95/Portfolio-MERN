@@ -1,0 +1,46 @@
+{
+  "name": "portolionode",
+  "version": "1.0.0",
+  "description": "PortfolioProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --exec babel-node server.js --ignore dist/",
+    "start": "babel-node server.js",
+    "dev:bundler": "webpack -w --mode=development",
+    "prod:bundle": "webpack -w --mode=production",
+    "install-dev": "npm install",
+    "heroku-postbuild": "npm run install-dev"
+  },
+  "author": "Swagat",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "json-loader": "^0.5.7",
+    "mongoose": "^5.12.13",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "formik": "^2.2.8",
+    "web-vitals": "^1.1.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
