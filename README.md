@@ -14,6 +14,7 @@ However, nodemon being a dev dependency, can not and rather should not be used i
 Heroku searches for the start script to start the app in the server if the Procfile is not created for Heroku. 
 
 For heroku deployment, refer to : https://dev.to/hawacodes/deploying-a-mern-app-with-heroku-3km7
+and https://devcenter.heroku.com/articles/git
 
 
 Runtime: https://portfolio-swagat.herokuapp.com/
