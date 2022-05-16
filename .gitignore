@@ -1,4 +1,4 @@
 node_modules
-# Config.env
+Config.env
 # Local Netlify folder
 .netlify
