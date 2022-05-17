@@ -9,8 +9,8 @@ export default class Home extends Component {
         <section id="home" className="templatemo-home">
           <div className="container" style = {{'paddingTop':'10%'}}> 
             <div className="row">
-              <div className="col-md-2 col-sm-2"></div>
-              <div className="col-md-9 col-sm-10">
+              <div className="col-md-4 col-sm-2"></div>
+              <div className="col-md-8 col-sm-10">
                 <div className="row">
                   <div className="col-md-2 col-sm-2">
                     <img src={prof} className="prof-img" style = {{"height":"200px","width":"200px","opacity":"0.9", "borderRadius":"150px", "border": "3px solid #eb5424"}}alt="profile img" />
