@@ -47,7 +47,7 @@ function Contact(props){
       <>
         {/* <!-- START CONTACT --> */}
         <section id="contact" className="tm-contact">
-          <div className="container">
+          <div className="container" style = {{marginTop:'10%'}}>
             <div className="row">
               <div className="col-md-12">					
                 <h2 className="title">Drop <strong>me a line</strong></h2>

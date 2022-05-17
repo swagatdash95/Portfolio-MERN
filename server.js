@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './Config.env'});
+require('dotenv').config({ path: './.env'});
 import express from 'express';
 import apiRouter from './api';
 import mongoose from 'mongoose';

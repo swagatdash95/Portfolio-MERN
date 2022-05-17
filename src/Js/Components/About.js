@@ -8,7 +8,7 @@ class About extends Component {
         <section id="about" className="tm-about">
           <div className="container">
             <div className="row">
-              <div className="col-md-6 col-sm-7" style = {{marginLeft:"50%"}}>
+              <div className="col-md-6 col-sm-7" style = {{marginLeft:"50%", width:"50%"}}>
                 <div className="title">
                   <h1 className="tm-red-text">This is<strong> Me</strong></h1>
                 </div>
